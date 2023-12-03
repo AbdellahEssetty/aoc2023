@@ -72,7 +72,7 @@ private:
 
 int main()
 {
-    std::ifstream file("D:/Users/esset/source/repos/aoc2023/inputs/day_02.txt");
+    std::ifstream file("inputs/day_02.txt");
     if (!file)
     {
         std::cerr << "Invalid input file" << '\n';
