@@ -50,7 +50,7 @@ public:
 
 int main()
 {
-    std::ifstream file("D:\\Users\\esset\\source\\repos\\aoc2023\\inputs\\day_03.txt");
+    std::ifstream file("inputs\\day_03.txt");
     if (!file)
     {
         std::cerr << "Unvalid file location" << '\n';
