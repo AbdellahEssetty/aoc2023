@@ -10,7 +10,7 @@
 
 int main()
 {
-    std::ifstream file("D:\\Users\\esset\\source\\repos\\aoc2023\\inputs\\day_01_01.txt");
+    std::ifstream file("inputs\\day_01_01.txt");
     if (!file)
     {
         std::cerr << "No file in Location" << '\n';
