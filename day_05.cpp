@@ -45,7 +45,7 @@ std::vector<std::pair<std::uint64_t, std::uint64_t>> get_intervals(const std::ve
 }
 int main()
 {
-    std::ifstream file("D:\\Users\\esset\\source\\repos\\aoc2023\\input\\day_05.txt");
+    std::ifstream file("input\\day_05.txt");
     if (!file)
     {
         std::cerr << "Unvalid file path" << '\n';
