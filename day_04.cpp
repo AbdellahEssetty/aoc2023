@@ -12,7 +12,7 @@
 
 int main()
 {
-	std::ifstream file("D:\\users\\esset\\source\\repos\\aoc2023\\input\\day_04.txt");
+	std::ifstream file("input\\day_04.txt");
 	if (!file)
 	{
 		std::cerr << "Unvalid file path" << '\n';
