@@ -23,7 +23,7 @@ std::pair<long long, long long> solve_2nd_deg_eq(const long long& a, const long 
 
 int main()
 {
-    std::ifstream file("D:\\Users\\esset\\source\\repos\\aoc2023\\input\\day_06.txt");
+    std::ifstream file("input\\day_06.txt");
     std::vector<long long> time = { 48938466, };
     std::vector<long long> distance = { 261119210191063, };
     std::vector<long long> score;
